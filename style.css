@@ -62,6 +62,22 @@
     background-color: aqua;
 }
 
+.location-check {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 257.23px repeat(3, 1fr) 64px;
+    grid-template-rows: 1;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
 .explorer {
     display: flex;
     flex-direction: column;
