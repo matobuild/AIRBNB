@@ -1,10 +1,9 @@
 * {
-    box-sizing: border-boxgi;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    /* background-color: red; */
-}
+
 
 .full-nav {
     position: relative;
@@ -29,6 +28,38 @@ body {
     grid-template-rows: 80px 80px 1fr;
 }
 
-.nav-bar {
-    background-color: violet;
+.navbar {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.middle-nav,
+.right-nav {
+    display: flex;
+    font-size: 18px
+}
+
+.middle-nav {
+    justify-content: center;
+}
+
+.right-nav {
+    justify-content: end;
+}
+
+.nav-link {
+    padding: 0 10px;
+}
+
+.location-check {
+    background-color: aqua;
+}
+
+.exployer {
+    background-color: red;
 }
