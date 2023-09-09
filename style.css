@@ -41,15 +41,17 @@
 .middle-nav,
 .right-nav {
     display: flex;
-    font-size: 18px
+    align-items: center;
 }
 
 .middle-nav {
     justify-content: center;
+    font-size: 18px
 }
 
 .right-nav {
     justify-content: end;
+    font-size: 16px;
 }
 
 .nav-link {
