@@ -103,6 +103,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    column-gap: 13px;
 }
 
 .suggestion-inner {
@@ -119,4 +120,32 @@
 .suggesstion-descriptions {
     display: flex;
     flex-direction: column;
+}
+
+.Accomodation {
+    padding: 0 80px;
+    margin: 50px 0;
+}
+
+.Accommodation-header {
+    font-size: 38px;
+}
+
+.Accomodation-Details {
+    display: flex;
+    gap: 13px;
+}
+
+.Accomodation-Details-inner {
+    font-size: 18px;
+    min-width: 0;
+    min-height: 0;
+    width: 375px;
+    height: auto;
+}
+
+.Accomodation-image {
+    width: 100%;
+    height: auto;
+
 }
