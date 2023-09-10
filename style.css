@@ -122,7 +122,8 @@
     flex-direction: column;
 }
 
-.Accomodation {
+.Accomodation,
+.Community {
     padding: 0 80px;
     margin: 50px 0;
 }
@@ -132,13 +133,15 @@
 }
 
 .Accomodation-Details,
-.Experience-Details {
+.Experience-Details,
+.Community-Details {
     display: flex;
     gap: 13px;
 }
 
 .Accomodation-Details-inner,
-.Experience-Details-inner {
+.Experience-Details-inner,
+.Community-Details-inner {
     font-size: 18px;
     min-width: 0;
     min-height: 0;
@@ -148,22 +151,26 @@
 }
 
 .Accomodation-image,
-.Experience-image {
+.Experience-image,
+.Community-image {
     width: 100%;
     height: auto;
-
 }
 
 .Experience {
     padding: 50px 80px;
 }
 
-
-.Experience-header-top {
+.Experience-header-top,
+.Community-header {
     font-size: 32px;
 }
 
 .Experience-header-bottom,
 .Experience-under-image-bottom {
     font-size: 14px;
+}
+
+.Community-under-image {
+    font-size: 16px;
 }
