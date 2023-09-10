@@ -131,21 +131,39 @@
     font-size: 38px;
 }
 
-.Accomodation-Details {
+.Accomodation-Details,
+.Experience-Details {
     display: flex;
     gap: 13px;
 }
 
-.Accomodation-Details-inner {
+.Accomodation-Details-inner,
+.Experience-Details-inner {
     font-size: 18px;
     min-width: 0;
     min-height: 0;
-    width: 375px;
+    /* width: 375px; */
+    width: 100%;
     height: auto;
 }
 
-.Accomodation-image {
+.Accomodation-image,
+.Experience-image {
     width: 100%;
     height: auto;
 
+}
+
+.Experience {
+    padding: 50px 80px;
+}
+
+
+.Experience-header-top {
+    font-size: 32px;
+}
+
+.Experience-header-bottom,
+.Experience-under-image-bottom {
+    font-size: 14px;
 }
