@@ -174,3 +174,22 @@
 .Community-under-image {
     font-size: 16px;
 }
+
+.footer {
+    padding: 0 80px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin: 10px 0;
+    gap: 13px;
+}
+
+.footer-top-index {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
